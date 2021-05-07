@@ -26,13 +26,13 @@ public class CalculaMediaAritimetica {
         double primeiroNumero = scanner.nextDouble();
 
         System.out.println ("Digite o segundo valor:");
-        double segundoNumero = 6.9;
+        double segundoNumero = scanner.nextDouble();
 
         // *** PROCESSAMENTO ***
         double resultado = (primeiroNumero + segundoNumero) / 2;
 
         // *** SAIDA DE DADOS ***
-        System.out.println ("O resultado é " + resultado);
+        System.out.println ("O resultado é:" + resultado);
 
     }
 
